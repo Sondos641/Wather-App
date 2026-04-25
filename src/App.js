@@ -68,12 +68,11 @@ function App() {
           />
         </div>
       )}
+      <footer className="footer">
+        <p>© 2026 Weather App | Built by Sondos Falah</p>
+      </footer>
     </div>
   );
 }
-return(
-  <footer className="footer">
-  <p>© 2026 Weather App | Built by Sondos Falah</p>
-  </footer>
-)
+
 export default App;

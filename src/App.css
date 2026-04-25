@@ -2,11 +2,16 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f5e6ff;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .app {
+  flex: 1; /* pushes footer down */
   text-align: center;
-  padding: 50px;
+  padding: 40px;
 }
 
 h1 {
@@ -47,10 +52,11 @@ button:hover {
 }
 
 .footer {
-  margin-top: 50px;
-  padding: 15px;
-  background-color: #e0aaff;
-  color: white;
+  padding: 12px;
   text-align: center;
-  border-radius: 10px;
+  background-color: #e9d5ff;
+  color: #6b5b95;
+  font-size: 14px;
+  border-top: 1px solid #d8b4fe;
+  opacity: 0.9;
 }
